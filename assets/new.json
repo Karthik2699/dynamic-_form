@@ -1,0 +1,62 @@
+{
+  "data": [
+    [
+      {
+        "id": 1,
+        "type": "text",
+        "hint": "Enter name",
+        "required": true,
+        "values": []
+      },
+      {
+        "id": 2,
+        "type": "number",
+        "hint": "Enter mobile number",
+        "required": true,
+        "values": []
+      },
+      {
+        "id": 3,
+        "type": "email",
+        "hint": "Enter email",
+        "required": false,
+        "values": []
+      },
+      {
+        "id": 4,
+        "type": "dropdown",
+        "hint": "Enter city",
+        "required": false,
+        "values": [
+          "India",
+          "USA",
+          "UK",
+          "Australia"
+        ]
+      }
+    ],
+    [
+      {
+        "id": 5,
+        "type": "date",
+        "hint": "Date Of Birth",
+        "required": false,
+        "values": [
+          "2000-01-01"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "radio",
+        "hint": "Select Gender",
+        "name": "gender",
+        "required": true,
+        "values": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      }
+    ]
+  ]
+}
